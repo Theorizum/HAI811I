@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="Theme.Projet" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#FFA500</item> <!-- Orange -->
+        <item name="colorPrimaryDark">#FF8C00</item> <!-- Orange foncé -->
+        <item name="colorAccent">#FFFF00</item> <!-- Jaune -->
+        <item name="android:windowBackground">@android:color/white</item> <!-- Blanc -->
+        <item name="android:textColorPrimary">#000000</item> <!-- Noir -->
+    </style>
+
+</resources>

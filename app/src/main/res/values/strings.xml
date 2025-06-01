@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Projet</string>
+    <string name="edullm_title">EduLLM</string>
+
+    <string name="mode_child_off">Enfant</string>
+    <string name="mode_child_on">Enfant</string>
+    <string name="mode_adult_off">Parent</string>
+    <string name="mode_adult_on">Parent</string>
+    <string name="mode_child_letter">E</string>
+    <string name="mode_adult_letter">P</string>
+
+    <string name="play">play</string>
+    <string name="back_button">Revenir en arrière</string>
+
+    <string name="error_child_requires_login">Vous devez être connecté pour accéder au mode enfant.</string>
+    <string name="login">Se connecter</string>
+    <string name="register">S\'inscrire</string>
+    <string name="password">Mot de passe</string>
+
+    <string name="nom">Nom</string>
+    <string name="prenom">Prénom</string>
+    <string name="date_naissance">Date de naissance</string>
+    <string name="telephone">Numéro de téléphone</string>
+    <string name="email">Courriel</string>
+    <string name="inscription">Inscription</string>
+    <string name="identifier">Identifiant</string>
+
+    <string name="back">Retour</string>
+</resources>

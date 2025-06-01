@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/title_background"
+    android:padding="16dp">
+
+    <!-- Titre -->
+<TextView
+android:id="@+id/titleTextView"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/edullm_title"
+android:textSize="70sp"
+android:textStyle="bold"
+android:textColor="#FFFFFF"
+android:layout_marginBottom="350dp" />
+
+    <!-- Sélection Enfant / Parent -->
+    <!-- 2. Sélection Enfant / Parent -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="48dp">
+
+        <!-- ENFANT -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ToggleButton
+                android:id="@+id/childToggle"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/paw_button_off"
+                android:textOff="@string/mode_child_letter"
+                android:textOn="@string/mode_child_letter"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:padding="0dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mode_child_off"
+                android:textStyle="italic|bold"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:layout_marginTop="8dp" />
+        </LinearLayout>
+
+        <!-- espacement -->
+        <View
+            android:layout_width="24dp"
+            android:layout_height="1dp" />
+
+        <!-- PARENT -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ToggleButton
+                android:id="@+id/parentToggle"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/paw_button_off"
+                android:textOff="@string/mode_adult_letter"
+                android:textOn="@string/mode_adult_letter"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:padding="0dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mode_adult_off"
+                android:textStyle="italic|bold"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:layout_marginTop="8dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <!-- Bouton Play -->
+<ImageButton
+android:id="@+id/playButton"
+android:layout_width="80dp"
+android:layout_height="80dp"
+android:background="@null"
+android:src="@drawable/play_button"
+android:contentDescription="@string/play" />
+
+</LinearLayout>
